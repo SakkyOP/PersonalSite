@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: #DED9C4;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-container {
+    background-color: #96C7C1;
+    position: relative;
+}
+
+/* .mid-container {
+
+} */
+
+.bottom-container {
+    background-color: #89B5AF;
+    margin: 100px auto auto;
+    padding: 50px 50px 10px;
+}
+
+.footer-link{
+    margin: auto 8px;
+    color: #458588;
+}
+
+.bottom-container p{
+    margin: 20px auto 0;
+    color: #EAF6F6;
+}
+
+.profile{
+    width: 32%;
+    margin: 100px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.programmer {
+    margin: auto 30px auto auto;
+    width: 25%;
+    float: left;
+}
+
+.gaming {
+    margin: auto auto auto 30px;
+    width: 25%;
+    float: right;
+}
+
+.skill-row h3,.skill-row p{
+    text-align: left;
+    line-height: 2;
+}
+
+p {
+    color: #40514E;
+}
+
+h1 {
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    color: #309c8e;
+}
+
+h3, a{
+    color: #11999E;
+}
+
+hr {
+    margin: 100px auto;
+    border: none;
+    background-color: #00000000;
+    color: #c2bdaa;
+    border-top: 8px dotted;
+    width: 10%;
+}
+
+.subtitle {
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+.title-text {
+    padding: 8.2em 0;
+    line-height: 2;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 10vh;
+    left: 64vw;
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 64vw;
+}
+
+.mountain{
+    bottom: 0;
+}
+
+.btn {
+    margin-top: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #89B5AF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+.btn:hover {
+    background: #83A7A2;
+    border: solid rgba(253, 254, 255, 0) 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
